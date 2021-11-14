@@ -1,0 +1,34 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Roboto',sans-serif;text-decoration:none;list-style:none}
+html{scroll-behavior:smooth}
+::-webkit-scrollbar{display:none}
+::-moz-scrollbar{display:none}
+body{width:100%;height:100vh;background:#242324}
+.container{width:100%;height:100vh;padding:0 70px;position:relative}
+.logo img{cursor:pointer;width:100px}
+nav{width:100%;height:13vh;display:flex;align-items:center;justify-content:space-between;position:fixed;background:#242324;z-index:1;margin-top:-7%;padding-top:23px;padding-bottom:20px;padding-right:130px}
+.container nav ul li{display:inline-block;margin:0 1rem;padding:0}
+.container nav ul li a{font-weight:700;color:#f3f2ff;font-family:'Merriweather',serif;transition:all .3s}
+.container nav ul li a:hover{font-size:1.3rem}
+.rTr{display:flex;flex-direction:column;align-items:center;margin-top:7%}
+.rTr h1{font-size:3.9rem;color:#f3f2ff;margin-bottom:1.5%;font-weight:100;font-family:'Poppins',sans-serif}
+.rTr span{font-weight:700}
+.rTr button{padding:9px 23px;border:none;border-radius:6px;background:#f82f3a;color:#f3f2ff;font-weight:700;cursor:pointer;transform:scale(1.3);position:relative}
+.image{display:flex;align-items:center;justify-content:space-between;margin-top:1.5%}
+.image img{width:730px;margin-left:2.7%;position:relative}
+.image .engine,.topSpeed{font-size:1.7rem;text-align:center;color:#f3f2ff;font-weight:bolder;font-style:italic;letter-spacing:1px;line-height:130%;font-family:Rubik,sans-serif}
+.adv{position:fixed;top:53%;left:49%;transform:translate(-50%,-50%);font-size:11.5rem;z-index:-1;color:#343334;letter-spacing:1px;opacity:.5}
+.aboutMe{width:100%;height:auto;text-align:center;background:rgba(255,255,255,.1);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);border-radius:10px;margin-top:8%;padding:0 6rem}
+.aboutMe .aboutMeText{color:#fff;font-size:3rem;padding:1% 0;font-family:'Poppins',sans-serif;font-weight:700}
+.aboutMe .aboutMePara{color:#f3f2ff;font-weight:700;text-align:justify;padding-bottom:4%;line-height:25px;font-family:Rubik,sans-serif}
+@media only screen and (max-width:600px){
+nav{padding:9px 0;flex-direction:column;height:13vh}
+.logo{text-align:center;margin-bottom:1%}
+.container{padding:0}
+.container nav ul li{display:inline;padding:0;margin:.5rem}
+.rTr h1{font-size:2.7rem;margin-top:24%;margin-bottom:5%}
+.adv{font-size:3.4rem;margin-top:7%}
+.image{flex-direction:column;margin-top:10%}
+.imageText .bike-pic{width:360px}
+.aboutMe{padding:0 20px}
+.aboutMe .aboutMeText{font-size:3rem}
+}
